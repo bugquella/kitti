@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<launch>
+
+  <node pkg="ros_kitti_writer" type="ros_kitti_writer_node" name="ros_kitti_writer_node" output="screen">
+  	<param name="root_directory"		value="/home/hegaozhi/dftc/kitti/ROSKittiWriter-master/tmp"/>
+  	<param name="velo_topic"		value="/kitti/velo/pointcloud"/>
+  	<param name="left_camera_topic"		value="/kitti/camera_color_left/image_raw"/>
+  	<param name="right_camera_topic"		value="/kitti/camera_color_right/image_raw"/>
+  	<param name="imu_topic"		value="/kitti/oxts/imu"/>
+  	<param name="gps_topic"		value="/kitti/oxts/gps/fix"/>
+  	<param name="vel_topic"		value="/kitti/oxts/gps/vel"/>
+  	<param name="tf_static_topic"		value="/tf_static"/>
+  	<param name="tf_topic"		value="/tf"/>
+  </node>
+    
+</launch>
+
