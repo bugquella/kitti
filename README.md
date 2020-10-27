@@ -22,12 +22,11 @@ release、hotfix 分支的命名规则分别为：release-，hotfix-。 feature�
 - develop-自己的名字 ：主线开发任务推进
 
 2、开发人员通过
-
-    拉取gitlab的全部数据
-'''
-git pull origin 
-git pull <远程主机名> <远程分支名>
-'''
+ 拉取gitlab的全部数据
+ '''
+ git pull origin 
+ git pull <远程主机名> <远程分支名>
+ '''
 
 注意： git fetch origin命令，从远程获取最新版本到本地，但不会自动git merge。如果需要有选择的合并git fetch是更好的选择。效果相同时git pull将更为快捷。
 
