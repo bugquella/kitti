@@ -16,11 +16,10 @@ release、hotfix 分支的命名规则分别为：release-，hotfix-。 feature�
 工作流程
 
 在主库已经存在的情况下，日常操作流程如下： 1、开发人员从develop主库建立分支 可以选择4种分支名字：
-
-    feature-xxx ：新功能
-    hotfix-xxx ：修复存在问题
-    release-xxx ：即将发布新版本，通过release-xxx添加说明文档等辅助材料
-    develop-自己的名字 ：主线开发任务推进
+- feature-xxx ：新功能
+- hotfix-xxx ：修复存在问题
+- release-xxx ：即将发布新版本，通过release-xxx添加说明文档等辅助材料
+- develop-自己的名字 ：主线开发任务推进
 
 2、开发人员通过
 
