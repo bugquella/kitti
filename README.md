@@ -1,6 +1,10 @@
 # kitti
 kitti数据集相关工具
 
+## 文件说明
+- ros_kitti_writer  将rosbag转换为kitti数据集
+- lidar2rosbag_kitti 将kitti 激光雷达数据转为rosbag
+
 
 
 # 仓库管理
